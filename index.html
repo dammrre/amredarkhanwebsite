@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACM Sports - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">ACM Sports</a>
+            <div class="search-bar">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <div class="auth-buttons">
+                <a href="login.html" class="login-btn">Log in</a>
+                <a href="register.html" class="register-btn">Register</a>
+            </div>
+        </div>
+    </header>
+
+    
+    <nav class="navigation">
+        <div class="nav-container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="today-matches.html">Match-Center</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="transfers.html">Transfers</a></li>
+            </ul>
+            <a href="live-match.html" class="live-stream-btn">Live Stream</a>
+        </div>
+    </nav>
+
+    
+    <main class="main-container">
+        
+        <section class="news-grid">
+            <div class="main-news-card">
+
+                <img src="image 1.png" alt="Milan Derby action" class="main-news-img">
+                <div class="main-news-content">
+                    <span class="news-category">Serie A</span>
+                    <h2>Milan Derby ended with final score of 5-0!</h2>
+                    <button class="read-more-btn">Read More</button>
+                </div>
+            </div>
+
+            <div class="side-news">
+                <div class="side-news-card">
+
+                    <img src="image 1-1.png" alt="Lionel Messi in Real Madrid shirt" class="side-news-img">
+                    <div class="side-news-content">
+                        <span class="news-category">La Liga</span>
+                        <h3>Here we go! Messi to Real Madrid!</h3>
+                        <button class="read-more-btn-small">Read</button>
+                    </div>
+                </div>
+                <div class="side-news-card">
+
+                    <img src="image 1-2.png" alt="Ronaldo in a heated moment" class="side-news-img">
+                    <div class="side-news-content">
+                        <span class="news-category">UCL</span>
+                        <h3>Fight in the middle of the game!</h3>
+                        <button class="read-more-btn-small">Read</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <aside class="today-matches-sidebar">
+            <h4>Today Matches</h4>
+            <div id="sidebar-matches-container">
+
+                <div class="sidebar-match">
+                    <img src="image 3.png" alt="Kairat" class="team-logo">
+                    <span class="match-time">11:00</span>
+                    <img src="image 2.png" alt="Real Madrid" class="team-logo">
+                </div>
+                <div class="sidebar-match">
+                    <img src="image 8.png" alt="Juventus" class="team-logo">
+                    <span class="match-time">14:00</span>
+                    <img src="image 6.png" alt="Man City" class="team-logo">
+                </div>
+                <div class="sidebar-match">
+                    <img src="image 7.png" alt="Liverpool" class="team-logo">
+                    <span class="match-time">14:00</span>
+                    <img src="image 15.png" alt="Bayern Munich" class="team-logo">
+                </div>
+                <div class="sidebar-match">
+                    <img src="image 9.png" alt="Juventus" class="team-logo">
+                    <span class="match-time">14:00</span>
+                    <img src="image 12.png" alt="Man City" class="team-logo">
+                </div>
+            </div>
+            <button class="show-more-btn" onclick="window.location.href='today-matches.html'">Show More</button>
+        </aside>
+
+        
+        <section class="live-sport">
+            <h3>Live Sport</h3>
+            <div class="live-sport-grid">
+                <div class="live-sport-card">
+                    
+                    <img src="nba.jpeg" alt="Basketball NBA Draft">
+                    <div class="live-overlay">
+                        <span class="live-tag">Live</span>
+                        <p>Basketball NBA Draft</p>
+                        <button class="play-button"></button>
+                    </div>
+                </div>
+                <div class="live-sport-card">
+                    
+                    <img src="bal.jpeg" alt="Ballon d'Or Ceremony">
+                    <div class="live-overlay">
+                        <span class="live-tag">Live</span>
+                        <p>Ballon d'Or Ceremony</p>
+                        <button class="play-button"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="pundits">
+            <h3>Pundits</h3>
+            <div class="pundits-grid">
+                <div class="pundit-card">
+                    
+                    <img src="image 20.png" alt="Pundit Thierry Henry">
+                    <h4>Thierry Henry</h4>
+                    <p>“UCL Matchday predictions: Here's who I think is going to win tonight’s games..”</p>
+                </div>
+                <div class="pundit-card">
+                    
+                    <img src="image 20-5.png" alt="Pundit Pep Guardiola">
+                    <h4>Pep Guardiola</h4>
+                    <p>“Man City crisis is fixed by G/A from Youth Team Wonderkid in FA Cup debut.”</p>
+                </div>
+                <div class="pundit-card">
+                    
+                    <img src="image 20-6.png" alt="Pundit Zlatan Ibrahimovic">
+                    <h4>Zlatan Ibrahimovic</h4>
+                    <p>“Serie A’s teams are getting worse, Meazza and San Siro play in my days”</p>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="popular-transfers">
+            <h3>Popular transfers</h3>
+            <div id="popular-transfers-container" class="transfers-grid-home">
+                 
+                 <div class="transfer-card-home">
+                    <img src="image 20-1.png" alt="Garnacho" class="player-photo">
+                    <span class="transfer-value">$125M</span>
+                    <div class="transfer-arrow-teams">
+                        <img src="new.png" alt="Man Utd" class="team-logo">
+                        <span class="arrow">&rarr;</span>
+                        <img src="image 7.png" alt="Liverpool" class="team-logo">
+                    </div>
+                </div>
+                <div class="transfer-card-home">
+                    <img src="image 20-3.png" alt="Player 2" class="player-photo">
+                    <span class="transfer-value">$125M</span>
+                    <div class="transfer-arrow-teams">
+                        <img src="man.png" alt="Man Utd" class="team-logo">
+                        <span class="arrow">&rarr;</span>
+                        <img src="image 13-1.png" alt="Chelsea" class="team-logo">
+                    </div>
+                </div>
+                <div class="transfer-card-home">
+                    <img src="image 20-3.png" alt="Player 3" class="player-photo">
+                    <span class="transfer-value">$125M</span>
+                    <div class="transfer-arrow-teams">
+                        <img src="man.png" alt="Man Utd" class="team-logo">
+                        <span class="arrow">&rarr;</span>
+                        <img src="image 13-1.png" alt="Chelsea" class="team-logo">
+                    </div>
+                </div>
+            </div>
+            <button class="show-more-btn-maroon" onclick="window.location.href='transfers.html'">Show More</button>
+        </section>
+    </main>
+
+    
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#"><img src="Facebook.png" alt="Facebook"></a> 
+            <a href="#"><img src="Tik Tok.png" alt="TikTok"></a> 
+            <a href="#"><img src="Instagram.png" alt="Instagram"></a> 
+            <a href="#"><img src="Telegram.png" alt="Telegram"></a> 
+        </div>
+        <div class="footer-links">
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy & Cookies Notice</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Accessibility Information</a>
+        </div>
+        <p class="copyright">&copy; ACM Sports 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

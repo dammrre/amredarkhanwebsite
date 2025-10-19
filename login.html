@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACM Sports - Login</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">ACM Sports</a>
+            <div class="search-bar">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <div class="auth-buttons">
+                <a href="login.html" class="login-btn">Log in</a>
+                <a href="register.html" class="register-btn">Register</a>
+            </div>
+        </div>
+    </header>
+
+    
+    <nav class="navigation">
+        <div class="nav-container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="today-matches.html">Match-Center</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="transfers.html">Transfers</a></li>
+            </ul>
+            <a href="live-match.html" class="live-stream-btn">Live Stream</a>
+        </div>
+    </nav>
+
+    
+    <main class="main-container auth-page">
+        <div class="auth-container">
+            <h2>Login</h2>
+            
+            <form id="login-form" class="auth-form" novalidate>
+                <div class="form-group">
+                    <label for="login-username">Username/Email</label>
+                    <input type="text" id="login-username" name="username" placeholder="Type here..." required>
+                    <div class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" name="password" placeholder="Type here..." required>
+                    <div class="error-message"></div>
+                </div>
+                <a href="#" class="forgot-password-link">Forgot password?</a>
+                <button type="submit" class="auth-submit-btn">Log in</button>
+            </form>
+        </div>
+    </main>
+
+    
+    <footer class="footer auth-footer">
+        <div class="social-icons">
+            <a href="#"><img src="placeholder.jpg" alt="Facebook"></a> 
+            <a href="#"><img src="placeholder.jpg" alt="TikTok"></a> 
+            <a href="#"><img src="placeholder.jpg" alt="Instagram"></a> 
+            <a href="#"><img src="placeholder.jpg" alt="Telegram"></a> 
+        </div>
+        <div class="footer-links">
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy & Cookies Notice</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Accessibility Information</a>
+        </div>
+        <p class="copyright">&copy; ACM Sports 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
